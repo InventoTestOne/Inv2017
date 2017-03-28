@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Events"
+          android:id="@+id/nav_item_inbox"
+          android:icon="@drawable/inbox"/>
+
+    <item android:title="Schedule"
+          android:id="@+id/nav_item_sent"
+          android:icon="@drawable/sent"/>
+
+    <item android:title="LiveEvents"
+          android:id="@+id/nav_item_draft"
+          android:icon="@drawable/draft"/>
+    <item
+        android:title="Spam"
+        android:icon="@drawable/spam"/>
+    <item
+        android:title="Logout"
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/bin"/>
+
+    <item android:title="Settings"
+        android:icon="@drawable/settings"/>
+    <item android:title="Help"
+        android:icon="@drawable/help"/>
+
+    <item android:title="Others">
+        <menu>
+
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+
+    </group>
+
+
+</menu>
